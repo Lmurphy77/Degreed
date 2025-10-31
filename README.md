@@ -7,10 +7,10 @@
               ┌─────────────────┴─────────────────┐
               │                                   │
 ┌─────────────▼─────────────┐       ┌─────────────▼─────────────┐
-│  App Service (West US)     │       │  App Service (East US)    │
-│  - Linux Plan              │       │  - Linux Plan             │
-│  - Private Endpoint        │       │  - Private Endpoint       │
-│  - VNet Integration        │       │  - VNet Integration       │
+│  App Service (West US 2)  │       │  App Service (West US 3)  │
+│  - Linux Plan             │       │  - Linux Plan             │
+│  - Private Endpoint        │       │  - Private Endpoint      │
+│  - VNet Integration        │       │  - VNet Integration      │
 └─────────────┬──────────────┘       └─────────────┬────────────┘
               │                                   │
      ┌────────▼──────────┐             ┌───────────▼──────────┐
@@ -20,8 +20,8 @@
               │                                   │
               ▼                                   ▼
      ┌────────────────────────────────────────────────────┐
-     │   Private DNS Zones (privatelink.*.windows.net)     │
-     │   linked to both VNets for private name resolution   │
+     │   Private DNS Zones (privatelink.*.windows.net)    │
+     │   linked to both VNets for private name resolution │
      └────────────────────────────────────────────────────┘
 
 
