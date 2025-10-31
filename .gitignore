@@ -3,7 +3,7 @@ infra/terraform.tfstate
 infra/terraform.tfstate.backup
 infra/*.tfplan
 infra/.terraform.tfstate.lock.info
-
+infra/*.tfstate.lock.info
 # Local Terraform data
 infra/.terraform/
 infra/.terraform.lock.hcl
